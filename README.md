@@ -1,6 +1,4 @@
-# Project Name
-
-WeatherApp
+# WeatherApp
 
 ## Install Instructions
 
@@ -31,5 +29,11 @@ To get started with this project, follow these simple steps:
     ```bash
     npm run dev
     ```
+# Screenshots
+
+![Destop View](./desktop_view.png)
+![Mobile View](./mobile_view.png)
+
+
 
 
