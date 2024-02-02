@@ -7,13 +7,13 @@ To get started with this project, follow these simple steps:
 1. Clone the repository to your local machine using the following command in your terminal:
 
     ```bash
-    git clone <repo link>
+    git clone https://github.com/vinsin2002/WeatherApp.git
     ```
 
 2. Change into the project directory:
 
     ```bash
-    cd <project directory>
+    cd weather-app
     ```
 
 3. Install the project dependencies using npm:
