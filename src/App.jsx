@@ -128,7 +128,7 @@ function App() {
                 </div>
               </div>
               <div className='flex flex-col justify-center items-center text-xs sm:text-lg text-center'>
-                <p className='text-2xl font-light'>{weatherData.weather[0].description}</p>
+                <p className='text-2xl font-light '>{weatherData.weather[0].description}</p>
                 <p className='font-light '>High: {isCelsius ? kelvinToCelsius(weatherData.main.temp_min) : kelvinToFahrenheit(weatherData.main.temp_min)}°
                   {isCelsius ? 'C' : 'F'} / Low: {isCelsius ? kelvinToCelsius(weatherData.main.temp_max) : kelvinToFahrenheit(weatherData.main.temp_max)}°
                   {isCelsius ? 'C' : 'F'}
