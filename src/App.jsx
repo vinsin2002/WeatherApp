@@ -140,7 +140,7 @@ function App() {
           )
         )}
       </div>
-      <div className="h-1/3 w-3/4 sm:w-2/3 flex flex-col sm:flex-row justify-center items-center">
+      <div className="mt-8 h-1/3 w-3/4 sm:w-2/3 flex flex-col sm:flex-row justify-center items-center">
         {Object.keys(groupedForecastData).map((date, index) => (
           <ForecastCard
             key={index}
